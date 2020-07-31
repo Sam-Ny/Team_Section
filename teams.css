@@ -44,7 +44,7 @@ body {
   background-color: #302727;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  text-shadow: 5px 4px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 5px 4px 2px rgba(0, 0, 0, 0.2);
   font-size: 5em;
 }
 .section-head .content p {
@@ -130,7 +130,7 @@ body {
   font-size: 1.2em;
 }
 .body h2 {
-  font-size: 24px;
+  font-size: 19px;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: rgb(238, 74, 9);
@@ -145,7 +145,8 @@ body {
   position: absolute;
   display: flex;
   bottom: 10px;
-  width: 100%;
+  width: 50%;
+  transform: translateX(3.8em);
   height: 60px;
 }
 .footer a {
@@ -172,14 +173,30 @@ body {
 }
 
 a:hover {
-  background: #2196f3;
-  color: #255784;
+  background: #255783;
+  color: white;
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0.3s;
 }
 #abc{
   margin-right: 10px;
 }
+
+.twitter{
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+  transform: translate(9em,14.8em);
+}
+.linkedin{
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+  transform: translate(.3em,9.5em);
+}
+
+
+
 
 /* for mobile view */
 
@@ -198,15 +215,26 @@ a:hover {
 
   /* Team Heading */
   .team-heading {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 
   .team {
     display: grid;
   }
   .card {
-    height: 340px;
+    height: 300px;
     width: 240px;
-    /* overflow: hidden; */
   }
+  .twitter{
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+  transform: translate(7.3em,14.8em);
+}
+.linkedin{
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+  transform: translate(.3em,9.5em);
+}
 }
