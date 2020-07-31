@@ -74,12 +74,13 @@ body {
   position: relative;
   background: rgb(246, 176, 140);
   margin: 30px;
-  height: 400px;
+  height: 300px;
   width: 290px;
   border-radius: 30px;
   transition: 0.2s linear;
   box-shadow: -6px -6px 25px 0 rgba(0, 0, 0, 0.8),
     6px 6px 25px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .card:hover {
@@ -197,14 +198,14 @@ a:hover {
 
   /* Team Heading */
   .team-heading {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .team {
     display: grid;
   }
   .card {
-    height: 350px;
+    height: 340px;
     width: 240px;
     /* overflow: hidden; */
   }
