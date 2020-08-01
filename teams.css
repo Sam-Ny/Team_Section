@@ -26,7 +26,6 @@ body {
   background-color: rgb(246, 176, 140);
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
-  box-shadow: -6px -6px 25px 0;
 }
 .section-head::after {
   box-shadow: -6px -6px 25px 0;
@@ -41,10 +40,9 @@ body {
 .section-head .content h1 {
   margin: 0;
   padding: 0;
-  background-color: #302727;
+  background-color: #181515;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  text-shadow: 5px 4px 2px rgba(0, 0, 0, 0.2);
   font-size: 5em;
 }
 .section-head .content p {
@@ -78,7 +76,7 @@ body {
   width: 290px;
   border-radius: 30px;
   transition: 0.2s linear;
-  box-shadow: -6px -6px 25px 0 rgba(0, 0, 0, 0.8),
+  box-shadow: -6px -6px 25px 4px rgba(0, 0, 0, 0.8),
     6px 6px 25px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
