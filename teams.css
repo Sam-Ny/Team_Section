@@ -85,6 +85,7 @@ body {
     padding: 30px 0 40px;
     margin: 30px;
     max-width: 250px;
+    max-height: 250px;
     background-color: rgb(246, 176, 140);
     text-align: center;
     overflow: hidden;
@@ -95,7 +96,7 @@ body {
   }
 
   .name{
-    font-size: 1.35em;
+    font-size: 1.38em;
   }
   .tenure{
     font-size: .99em;
