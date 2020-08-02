@@ -202,3 +202,20 @@ body {
     color: #1369ce;
     background-color: #f7f5ec;
   }
+
+  /* MOBILE VIEW */
+@media only screen and (max-width: 600px){
+  .section-head {
+  height: 50vh;
+}
+.section-head .content h1 {
+  font-size: 3.5em;
+}
+.section-head .content p {
+  color: #004151;
+  font-size: 1em;
+}
+.team-heading {
+  font-size: 1.5em;
+}
+}
