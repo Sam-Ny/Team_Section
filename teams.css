@@ -70,7 +70,9 @@ body {
     padding: 30px 0 40px;
     margin: 30px;
     min-width: 250px;
+    max-width: 250px;
     min-height: 250px;
+    max-height: 250px;
     background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
     text-align: center;
     overflow: hidden;
@@ -89,7 +91,7 @@ body {
     margin: 30px;
     max-width: 250px;
     max-height: 250px;
-    background-color: #d4d4d4;
+    background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -101,6 +103,7 @@ body {
   .name{
     font-size: 1.38em;
   }
+
   .team-content{
     margin-top: -3em;
   }
@@ -163,7 +166,10 @@ body {
     color: #484848;
     text-transform: capitalize;
   }
-  
+
+  .big-tenure{
+  margin-top: -.7em;
+  }
   .our-team .social {
     width: 100%;
     padding: 0;
