@@ -46,7 +46,9 @@ body {
   color: #004151;
   font-size: 1.2em;
 }
-
+.faculty{
+  padding-top: 1em;
+}
 /* team heading */
 .team-heading {
   text-align: center;
@@ -68,6 +70,7 @@ body {
     padding: 30px 0 40px;
     margin: 30px;
     min-width: 250px;
+    min-height: 250px;
     background-color: rgb(246, 176, 140);
     text-align: center;
     overflow: hidden;
