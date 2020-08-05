@@ -193,7 +193,8 @@ body {
     display: inline-block;
   }
   .space{
-    opacity: 0;;
+    opacity: 0;
+    font-size: 30px;
   }
   .our-team .social li a {
     display: block;
