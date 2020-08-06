@@ -128,7 +128,22 @@ body {
     text-decoration: none;
     color: black;
   }
-
+  .extra_logo{
+    margin-left: 4.2em;
+  }
+  .extra{
+    margin: 1.5em 0 0 0;
+    background-color: rgb(209, 209, 209);
+  }
+  #msme{
+    transform: translate(12em,-2em);
+  }
+  #iic{
+    transform: translate(14rem,1rem);
+  }
+  #headstart{
+    transform: translate(15rem,-3rem);
+  }
 
 /* Mobile view */
 @media only screen and (max-width: 600px){
@@ -171,4 +186,24 @@ body {
   .team-heading{
     font-size: 1.3em;
   }
+
+  #msme{
+    max-width: 110px;
+    margin: 0 0 -1.5em -11em;
+  }
+  #iic{
+    max-width: 110px;
+    margin-left: -25px;
+    padding-bottom: 10px ;
+  }
+  #headstart{
+    max-width: 110px;
+    margin: 0 0 -1.6em -1.8em;
+  }
+  .extra_logo{
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
 }
