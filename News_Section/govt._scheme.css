@@ -129,6 +129,14 @@ body {
     color: black;
   }
   .extra_logo{
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  /* .extra_logo{
     margin-left: 4.2em;
   }
   .extra{
@@ -143,7 +151,7 @@ body {
   }
   #headstart{
     transform: translate(15rem,-3rem);
-  }
+  } */
 
 /* Mobile view */
 @media only screen and (max-width: 600px){
@@ -188,22 +196,21 @@ body {
   }
 
   #msme{
-    max-width: 110px;
-    margin: 0 0 -1.5em -11em;
+    max-width: 100px;
+    /* margin: 0 0 -1.5em -11em; */
   }
   #iic{
-    max-width: 110px;
-    margin-left: -25px;
-    padding-bottom: 10px ;
+    max-width: 100px;
+    transform: translateX(10px);
+    /* margin-left: -25px; */
+    /* padding-bottom: 10px ; */
   }
   #headstart{
-    max-width: 110px;
-    margin: 0 0 -1.6em -1.8em;
+    max-width: 100px;
+    transform: translateX(10px);
   }
   .extra_logo{
-    margin: 0;
-    padding-bottom: 20px;
-    padding-left: 0;
+    justify-content: center;
   }
 
 }
