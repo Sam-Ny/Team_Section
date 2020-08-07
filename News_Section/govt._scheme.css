@@ -158,8 +158,6 @@ body {
   .our-team{
     display: flex;
     flex-direction: column;
-    /* text-align: center;
-    justify-content: center; */
     min-width: 300px;
     max-width: 300px;
     min-height: 100px;
@@ -176,11 +174,9 @@ body {
     height: 3em;
   }
   .name{
-    /* padding-left: 1.2em; */
     font-size: 1.1em;
     max-width: 15em;
     max-height: 30px;
-    /* transform: translateY(-1em); */
     transition: ease-in .3s;
   }
   .description{
@@ -195,15 +191,12 @@ body {
     font-size: 1.3em;
   }
 
-  #msme{
+  /* #msme{
     max-width: 100px;
-    /* margin: 0 0 -1.5em -11em; */
   }
   #iic{
     max-width: 100px;
     transform: translateX(10px);
-    /* margin-left: -25px; */
-    /* padding-bottom: 10px ; */
   }
   #headstart{
     max-width: 100px;
@@ -211,6 +204,5 @@ body {
   }
   .extra_logo{
     justify-content: center;
-  }
-
+  } */
 }
